@@ -85,7 +85,7 @@ ol li
 header
 { position: relative;
   background: -webkit-linear-gradient(#43A9FF, #0043A8);
-  height: 100px;} 
+  height: 80px;} 
   
 #header_section
 { width: 940px;
@@ -96,7 +96,7 @@ header
 { width: 260px;
   float: left;
   margin: 0 auto;
-  padding: 10px 0 10px 0;
+  padding: 0px 0 10px 0;
   background: transparent;} 
    
 #welcome h2
@@ -113,7 +113,7 @@ nav
   float: right;}   
   
 ul#nav
-{ margin:0;
+{ margin:-5px;
   float: right;}
 
 ul#nav li
@@ -149,7 +149,7 @@ ul#nav li.current a, ul#nav li:hover a
 
 #site_content
 { width: 75%;
-  padding-top: 20px;
+  padding-top: 0px;
   overflow: hidden;
   margin-bottom: 30px;} 
 
@@ -181,7 +181,8 @@ ul#nav li.current a, ul#nav li:hover a
 .content_item
 { float: left;
   width: 100%;
-  margin-bottom: 20px;}
+  margin-bottom: 20px;
+    margin-left: 7%;}
  
 .content_imagetext
 { width: 620px;
@@ -295,16 +296,16 @@ footer a:hover
 
 .slideshow
 { width: 940px;
-  height: 300px;
+  height: 250px;
   float: left;
-    margin: 10px 10px;
+    margin: 0px 42px;
   }  
   
 /* styling for the slideshow on the homepage */
 ul.slideshow {
   list-style: none;
   width: 940px;
-  height: 300px;
+  height: 250px;
   overflow: hidden;
   position: relative;
   margin: 0;}

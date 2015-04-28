@@ -15,8 +15,9 @@
 
       <div class="slideshow">
 	    <ul class="slideshow">
-          <li class="show"><img width="940" height="300" src="images/criar-sites-sucesso.png" alt="Criação de sites" /></li>
-          <li><img width="940" height="300" src="images/Manutencao-de-Computadores-TI.jpg" alt="Manutenção de computadores" /></li>
+          <li class="show"><img width="940" height="250" src="images/criar-sites-sucesso.png" alt="Criação de sites" /></li>
+          <li><img width="940" height="250" src="images/Manutencao-de-Computadores-TI.jpg" alt="Manutenção de computadores" /></li>
+		  <li><img width="940" height="250" src="images/aula-java.jpg" alt="Aulas de programação Java" /></li>
         </ul> 
 	  </div><!--close slideshow-->	
 	
@@ -40,7 +41,7 @@
 		    <div class="content_image">
 		      <img src="images/manutencaoComputador.jpg" alt="image1" width="150" height="150" />
 	        </div>
-		    <p>Manuntenção de comuptadores e notebook's</p>          
+		    <p>Manuntenção de computadores e notebook's</p>          
 			<p>Formatação a partir de R$ 50,00</p>          
 			<p>Backup</p>          
 		  	<!--<div class="button_small">
@@ -51,7 +52,7 @@
 		    <div class="content_image">
 		      <img src="images/Java SE II Orientado a Objetos - Prof. Neri Neitzke DVD-R PT-BR.jpg" alt="image1" width="150" height="150"/>
 	        </div>
-		    <p>Precisa de reforço escolar na area de programação? Marcamos horário para repasse de conhcimento.</p>          
+		    <p>Precisa de reforço escolar na area de programação? Marcamos horário para repasse de conhecimento</p>          
 			<p>Esclarecendo duvidas e auxilio para construção de algoritmos</p>          
 		  	<!--<div class="button_small">
 		      <a href="#">Ler mais</a>

@@ -1,7 +1,7 @@
 <?php
 
   // Destinatário
-  $para = "miguelbh6@gmail.com";
+  $para = "administrador@bakinformatica.com.br";
 
   // Assunto do e-mail
   $assunto = "Contato do site";
