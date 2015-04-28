@@ -148,7 +148,7 @@ ul#nav li.current a, ul#nav li:hover a
   -webkit-border: 7px 7px 7px 7px;}
 
 #site_content
-{ width: 51%;
+{ width: 75%;
   padding-top: 20px;
   overflow: hidden;
   margin-bottom: 30px;} 
@@ -296,7 +296,9 @@ footer a:hover
 .slideshow
 { width: 940px;
   height: 300px;
-  float: left;}  
+  float: left;
+    margin: 10px 10px;
+  }  
   
 /* styling for the slideshow on the homepage */
 ul.slideshow {

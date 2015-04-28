@@ -16,7 +16,7 @@
       <div class="slideshow">
 	    <ul class="slideshow">
           <li class="show"><img width="940" height="300" src="images/criar-sites-sucesso.png" alt="Criação de sites" /></li>
-          <li><img width="940" height="300" src="images/Manutenção-Preventiva.png" alt="Manutenção de computadores" /></li>
+          <li><img width="940" height="300" src="images/Manutencao-de-Computadores-TI.jpg" alt="Manutenção de computadores" /></li>
         </ul> 
 	  </div><!--close slideshow-->	
 	
