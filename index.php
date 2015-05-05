@@ -6,7 +6,7 @@
 <body>
 <div id="wrapper">
 	<!-- start header -->
-	<header>
+	<header style="height: 52px;">
         <?php include_once 'header.html'; ?>
 	</header>
 	<!-- end header -->
@@ -72,9 +72,10 @@
 								</p>
 									
 							</div>
-							<div class="box-bottom">
+							<!-- <div class="box-bottom">
 								<a href="#">Leia mais</a>
 							</div>
+							-->
 						</div>
 					</div>
 					<div class="col-lg-3">
@@ -89,9 +90,10 @@
 								</p>
 									
 							</div>
-							<div class="box-bottom">
+							<!--<div class="box-bottom">
 								<a href="#">Leia mais</a>
 							</div>
+							-->
 						</div>
 					</div>
 					
@@ -107,9 +109,10 @@
 								</p>
 									
 							</div>
-							<div class="box-bottom">
+							<!--<div class="box-bottom">
 								<a href="#">Leia mais</a>
 							</div>
+							-->
 						</div>
 					</div>
 					

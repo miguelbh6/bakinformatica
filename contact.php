@@ -23,13 +23,12 @@
 	</div>
 	</section>
 	<section id="content">
-	<div class="map">
-		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3752.655004363888!2d-43.90780970000004!3d-19.854545299999987!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa69ad78758011f%3A0x45d5e78ca56f1ac3!2sR.+Amaraji%2C+243+-+S%C3%A3o+Gabriel%2C+Belo+Horizonte+-+MG!5e0!3m2!1spt-BR!2sbr!4v1430259039315" width="600" height="450" frameborder="0" style="border:0"></iframe>
-	</div>
+	
+	
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-12">
-				<h4>Entre em contato conosco preenchendo o formulário <strong>contato abaixo</strong></h4>
+				<h4>Entre em contato conosco preenchendo o formulário abaixo</h4>
 				<form id="contactform" action="contact/sendmail.php" method="post" class="" name="send-contact">
 					
 					<div class="row">

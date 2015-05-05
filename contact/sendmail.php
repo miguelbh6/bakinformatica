@@ -4,35 +4,31 @@
   $para = "miguelbh6@gmail.com";
 
   // Assunto do e-mail
-  $assunto = "Contato do site";
+  $assunto = "BAK INFORMATICA - Contato do site";
 
   // Campos do formulário de contato
-  $nome = $_POST['nome'];
+  $nome = $_POST['name'];
   
   $email = $_POST['email'];
   $mensagem = $_POST['message'];
 
   // Monta o corpo da mensagem com os campos
-  $corpo = "Nome: $nome";
-  $corpo .= "E-mail: $email <br/> Mensagem: $mensagem";
   
-  $mensagemHTML = '<p><b><i>'.$mensagem.'</i></b></p><hr>';
+  $corpo .= "Nome: $nome<br /><br /> E-mail: $email <br /><br /> Mensagem: $mensagem";
+  
+  
 
-  // Cabeçalho do e-mail
-  $header = "From: $nome <$para> Reply-to: $email ";
-  $header .= "Content-Type: text/html; charset=iso-8859-1 ";
-  
   $quebra_linha = "\r\n"; 
   
   /* Montando o cabeÃ§alho da mensagem */
-$headers = "MIME-Version: 1.1" .$quebra_linha;
-$headers .= "Content-type: text/html; charset=iso-8859-1" .$quebra_linha;
+$header = "MIME-Version: 1.1" .$quebra_linha;
+$header .= "Content-type: text/html; charset=iso-8859-1" .$quebra_linha;
 // Perceba que a linha acima contém "text/html", sem essa linha, a mensagem não chegará formatada.
-$headers .= "From: " . $para.$quebra_linha;
-$headers .= "Reply-To: " . $email . $quebra_linha;
+$header .= "From: " . $para.$quebra_linha;
+$header .= "Reply-To: " . $email . $quebra_linha;
 // Note que o e-mail do remetente será usado no campo Reply-To (Responder Para)
 
-  mail($para, $assunto, $mensagemHTML, $headers);
+  mail($para, $assunto, $corpo, $header);
 
   $msg = "Sua mensagem foi enviada com sucesso.";
 
